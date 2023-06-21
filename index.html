@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>UMBV</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/sweetalert2.css">
+  
+  <!-- Google Fonts Roboto -->
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-login-form.min.css" />
+  <script type='text/javascript' src='js/jquery.js'></script>
+  <script type='text/javascript' src='js/jquery.form.js'></script>
+  <script src="js/sweetalert2.js"></script>
+
+</head>
+
+<body>
+  <!-- Start your project here-->
+
+  <style>
+
+.gradient-custom {
+    /* fallback for old browsers */
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, rgba(4, 18, 39, 0.75), rgba(6, 19, 41, 0.75));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, rgba(8, 33, 71, 0.75), rgba(37,117,252,0.75))
+  }
+    .gradient-custom-2 {
+      /* fallback for old browsers */
+      background: #fccb90;
+
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: -webkit-linear-gradient(to right, #000, #000, #000, #b44593);
+
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: linear-gradient(to right, #000, #000, #000, #000);
+    }
+
+    @media (min-width: 768px) {
+      .gradient-form {
+        height: 100vh !important;
+      }
+    }
+    @media (min-width: 769px) {
+      .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+      }
+    }
+    .progress-bar{
+    background-color:#062149;
+    border-radius: 10px;
+}
+
+  </style>
+  <body  class="" >
+    
+
+<section class="vh-100 gradient-custom" >
+  <div class="container py-5 vh-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+            <div class="row">
+              <div class="col-lg-12  text-center">
+                <img src="imagenes/icon.png" alt="" width="50%">
+                <br>
+              </div>
+            </div>
+            <h1 class="mb-2">S I V I </h1>
+
+              <h6 class="text-dark text-center">Sistema de Información para la Verificación de Ingreso a la UMBV</h6>
+             <div>
+              <div class="progress-bar"> </div>
+             </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Custom scripts -->
+  <script>
+   
+    $(document).ready(function() {
+     var percent = 0;
+     
+     timerId = setInterval(function() {
+         //increment progress bar
+         percent += 5;
+         $('.progress-bar').css('width', percent+'%');
+         $('.progress-bar').attr('aria-valuenow', percent);
+         $('.progress-bar').text(percent+'%');
+ 
+         //complete
+         if (percent == 100) {
+             clearInterval(timerId);
+             
+             //$('#index').hide();
+             //$('#inicio').show();
+             url="tablero.html";
+             $(location).attr('href',url);
+ 
+         }
+ 
+     }, 450);
+     
+ });
+ </script>
+</body>
+
+</html>

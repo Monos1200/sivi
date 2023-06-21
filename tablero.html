@@ -1,0 +1,391 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>-->
+    <link href="imagenes/l1.png" rel="icon">
+    <link href="imagenes/l1.png" rel="apple-touch-icon">
+    <title>UMBV</title>
+
+    <style>
+            .gradient-custom {
+    /* fallback for old browsers */
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, rgba(4, 18, 39, 0.75), rgba(6, 19, 41, 0.75));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, rgba(8, 33, 71, 0.75), rgba(37,117,252,0.75))
+  }
+    @media (min-width: 768px) {
+      .gradient-form {
+        height: 100vh !important;
+      }
+    }
+
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
+    </style>
+</head>
+
+<body class="gradient-custom">
+    <div class="container" style="display: block;" id="polo">
+       <div style="height:20px;"></div>
+       <h5 class="text-center text-white p-2 bg-dark">Sistema de Verificación de Ingreso </h5>
+                <div style="height: 100px;"></div>
+              <div class="row d-flex justify-content-center align-items-center cajas">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+               
+                    <div class="card-body p-3 text-center">
+                      <div class="row">
+                        <div class="col-lg-12  text-center">
+                          
+                          <button class="btn btn-dark w-100 btn1" id="buscar">Buscar Aspirante</button>
+                          <br><br>
+                          <button class="btn btn-dark w-100 btn1" id="acercade">Acerca de...</button>
+                          <br><br>
+                          <a href="https://www.google.com/"> <button class="btn btn-dark w-100 btn1">Cerrar</button></a>
+                        </div> 
+                    </div>
+                    <div class="col-lg-12  p-5 text-center" >
+                        <img src="imagenes/1.jpg" alt="" width="50%">
+                        <br><BR>
+                        <h1 class="text-white">S I V I</h1>
+                    </div>
+                  </div>
+              
+              </div>
+            
+              </div>
+              <div style="height:20px;"></div>
+              <h6 class="text-center text-white  bg-dark abajo p-2">Universidad Militar Bolivariana de Venezuela </h6>
+    </div>
+
+
+    <div class="container acerca" style="display: none;"id="polo2">
+        <div style="height:20px;"></div>
+         <h5 class="text-center text-white p-2 bg-dark">Sistema de Verificación de Ingreso </h5>
+                 <div style="height: 20px;"></div>
+               <div class="row d-flex justify-content-center align-items-center">
+                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                
+                     <div class="card-body p-3 acerca">
+                       <div class="row">
+                         <div class="col-lg-12 ">
+                           <p class="text-white"><b>SIVI</b> Es un sistema de información para la verificación de aspirantes a cadetes que quieran entrar a las distintas universidades militares de Venezuela.</p>
+                           <p class="text-white">SIVI esta constriudio con los mas altos estandares de seguridad informatica para garantizar la confiabilidad de los datos, asi como 
+                            herramientas de desarrollo de alta tecnología lo que lo hacen un sistema 
+                            seguro, rápido garantizando y acortando el tiempo de los procesos 
+                            admisión de cadetes
+                           </p>
+                           
+                         </div> 
+                     </div>
+                     <div class="col-lg-12  p-5 text-center" >
+                         <img src="imagenes/1.jpg" alt="" width="40%">
+                         <br><br>
+                         <h1 class="text-white">S I V I</h1>
+                         <button class="botonF1">
+                            <span>  <svg xmlns="imagenes/arrow-left-circle.svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                              </svg> </span>
+
+                            
+                          </button>
+                     </div>
+                   </div>
+               </div>
+          
+               </div>
+               
+    </div>
+
+    <div class="container buscar" style="display: none;"id="polo3">
+        <div style="height:20px;"></div>
+         <h5 class="text-center text-white p-2 bg-dark"> S I V I </h5>
+                 <div style="height: 20px;"></div>
+               <div class="row d-flex justify-content-center align-items-center">
+                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                     <div class="card-body p-2 acerca">
+                       <div class="row">
+                         <div class="col-lg-12 ">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Cédula del Aspirante" aria-label="Cédula del Aspírante" aria-describedby="button-addon2"  id="cedula" data-mask="V-00000000">
+                                <button class="btn btn-danger" type="button" id="button-addon2"><svg xmlns="imagenes/search.svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                  </svg></button>
+                              </div>
+                           
+                         </div> 
+                     </div>
+                     <div class="col-lg-12  p-2" >
+                        <div id="resultados2" style="display: none;">
+                            <div class="cadete text-center">
+                                <img src="imagenes/avatar.png" alt="" width="128" id="">
+                            </div>
+                            <h3 class="text-center text-white" >El Aspirante no Esta Registrado</h3>
+                            <div class="col-12">
+                                <br>
+                               <button class="btn btn-dark w-100 btn1 botonFx">Cerrar</button>
+                               <br><br>
+                            </div>
+                        </div>
+                            <div id="resultados1" style="display: none;">
+                                <div class="cadete text-center">
+                                    <img src="imagenes/avatar.png" alt="" width="128" id="foto">
+                                </div>
+                                <br>
+                                <div class="row bg-white radios">
+                                   
+                                    <div class="col-12">
+                                        <b>Cedula: </b><span id="cedula1"></span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Nombre: </b><span id="nombre"></span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Apellido: </b><span id="apellido">ghfhgfhgfhgfh gfhgfhgfhfgh</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Jerarquia: </b><span id="jerarquia">ghfhgfhgfhgfh gfhgfhgfhfgh</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Componente: </b><span id="componente">ghfhgfhgfhgfh gfhgfhgfhfgh</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Ingreso: </b><span id="ingreso">ghfhgfhgfhgfh gfhgfhgfhfgh</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Egreso: </b><span id="egreso">ghfhgfhgfhgfh gfhgfhgfhfgh</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Academia: </b><span id="academia">ghfhgfhgfhgfh gfhgfhgfhfgh</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Baja: </b><span id="baja">ghfhgfhgfhgfh gfhgfhgfhfgh</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Articulo: </b><span id="articulo">ghfhgfhgfhgfh gfhgfhgfhfgh</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <b>Descripcion: </b><span id="descripcion">ghfhgfhgfhgfh gfhgfhgfhfgh plo holas kasbjc mvhbs v sdb jkghjkduiuk kjhdg   jkhgdf gñip  por tal motivo insitamos alos comandates de peloton y alos jefes de compañia a seguir con su trabajoarduo y exitoso en pro del bien y de la seguridad nacional del pais</span>
+                                    </div>
+                                    
+                                    <div class="col-12">
+                                        <br>
+                                       <button class="btn btn-dark w-100 btn1 botonFx">Cerrar</button>
+                                       <br><br>
+                                    </div>
+                             </div>
+                            </div>
+                     </div>
+                   </div>
+   
+               </div>
+ 
+               </div>
+                              
+
+            
+    </div>
+  
+    <script src="jquery3.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    
+<script>
+    const element = document.querySelector('.cajas');
+element.classList.add('animate__animated', 'animate__slideInDown');
+element.addEventListener('animationend', () => {
+
+});
+
+
+
+$("#acercade").click(function() {
+    $("#polo").hide();
+    $("#polo2").show();
+    const element2 = document.querySelector('#polo2');
+element2.classList.add('animate__animated', 'animate__backInRight');
+element2.addEventListener('animationend', () => {
+
+});
+
+});
+
+$(".botonFx").click(function() {
+    $("#polo").show();
+    $("#polo2").hide();
+    $("#polo3").hide();
+    $("#resultados1").hide();
+    $("#resultados2").hide(); 
+
+
+});
+$(".botonF1").click(function() {
+    $("#polo").show();
+    $("#polo2").hide();
+    $("#polo3").hide();
+    $("#resultados1").hide();
+    $("#resultados2").hide(); 
+
+});
+
+$("#buscar").click(function() {
+    $("#polo").hide();
+    $("#polo3").show();
+    const element3 = document.querySelector('#polo3');
+element3.classList.add('animate__animated', 'animate__backInRight');
+element3.addEventListener('animationend', () => {
+
+});
+
+
+
+});
+
+
+
+
+
+
+// Busca el primer elemento con la edad indicada, sino devuelve -1
+
+
+
+$("#button-addon2").click(function() {
+    var bus=$("#cedula").val();
+    var obj = [
+    { 
+        foto:'imagenes/f1.jpg',
+        cedula: 'V-30128526', 
+        nombre: 'Marisol Josefina', 
+        apellido: 'Becerra Mora', 
+        jerarquia: 'Cadete/I',
+        componente: 'EJB',
+        ingreso: '08/08/2022',
+        egreso: '15/08/2022',
+        academia: 'Academia de comunicaciones y Electronica',
+        baja: 'Solicitud Propia',
+        articulo: '215',
+        descripcion: 'El Mencionado Cadete manifestó problemas familiares de indole personal y ´por tal motivo se le dio el egreso de la institución'
+    },
+    { 
+        foto:'imagenes/f2.jpg',
+        cedula: 'V-30777458', 
+        nombre: 'Yuleima Margarita', 
+        apellido: 'Perez Acasio', 
+        jerarquia: 'Cadete/I',
+        componente: 'GNB',
+        ingreso: '08/08/2022',
+        egreso: '25/09/2022',
+        academia: 'Academia de comunicaciones y Electronica',
+        baja: 'Academica',
+        articulo: '190',
+        descripcion: 'El Mencionado Cadete presenetó bajo rendimiento academico por presentar desinterés en su formación educativa'
+    },
+    { 
+        foto:'imagenes/f3.jpg',
+        cedula: 'V-31952123', 
+        nombre: 'Yamileth Carolina', 
+        apellido: 'Manzano Rodriguez', 
+        jerarquia: 'Cadete/I',
+        componente: 'AVB',
+        ingreso: '08/08/2022',
+        egreso: '20/11/2022',
+        academia: 'Academia de comunicaciones y Electronica',
+        baja: 'Medica',
+        articulo: '215',
+        descripcion: 'El Mencionado Cadete presentó complicaciones médicas en las extremidades inferiores (rodillas)  lo que le ocasiono una operación de emergencia'
+    },
+        { 
+        foto:'imagenes/f4.jpg',
+        cedula: 'V-30999555', 
+        nombre: 'Simon Rafael', 
+        apellido: 'Tovar Hernandez', 
+        jerarquia: 'Cadete/I',
+        componente: 'AVB',
+        ingreso: '08/08/2022',
+        egreso: '20/11/2022',
+        academia: 'Academia de comunicaciones y Electronica',
+        baja: 'Disciplinaria',
+        articulo: '300',
+        descripcion: 'El Mencionado Cadete cometió una falta grave ya que el mismo hurto prendas de vestir de un compañero y violento varios escaparates para robar las pertenencias que alli se encontraban'
+    },
+    { 
+        foto:'imagenes/f5.jpg',
+        cedula: 'V-30123321', 
+        nombre: 'Mario Alexander', 
+        apellido: 'Hernandez Mora', 
+        jerarquia: 'Cadete/I',
+        componente: 'GNB',
+        ingreso: '08/08/2022',
+        egreso: '20/11/2022',
+        academia: 'Academia de comunicaciones y Electronica',
+        baja: 'Solicitud Propia',
+        articulo: '201',
+        descripcion: 'El Mencionado Cadete manisfesto problemas familiares lo que lo obligó a pedir la baja de la academia'
+    },
+    { 
+        foto:'imagenes/f6.jpg',
+        cedula: 'V-31741369', 
+        nombre: 'Luis Jose', 
+        apellido: 'Parra Diaz', 
+        jerarquia: 'Cadete/I',
+        componente: 'EJB',
+        ingreso: '08/08/2022',
+        egreso: '20/11/2022',
+        academia: 'Academia de comunicaciones y Electronica',
+        baja: 'Médica',
+        articulo: '215',
+        descripcion: 'El Mencionado Cadete manisfesto se ledio la baja debido a que presenta un cuadro de gripe aguda que requiere atención especializada'
+    }
+  
+];
+ 
+var found = obj.find(e => e.cedula === bus);
+
+var valida=found;
+
+if(valida === undefined) {
+ $("#resultados1").hide();
+ $("#resultados2").fadeIn(); 
+
+}else{
+    $("#resultados1").fadeIn(); 
+    $("#resultados2").hide();
+}
+
+document.getElementById("foto").src=found.foto;
+$("#cedula1").text(found.cedula);
+$("#nombre").text(found.nombre);
+$("#apellido").text(found.apellido);
+$("#jerarquia").text(found.jerarquia);
+$("#componente").text(found.componente);
+$("#ingreso").text(found.ingreso);
+$("#egreso").text(found.egreso);
+$("#academia").text(found.academia);
+$("#baja").text(found.baja);
+$("#articulo").text(found.articulo);
+$("#descripcion").text(found.descripcion);
+
+
+ 
+});
+
+
+</script>
+
+</body>
+
+</html>
